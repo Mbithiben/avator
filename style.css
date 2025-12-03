@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+    padding: 2rem;
+    align-items: center;
+    margin-left: 20px;
+}
+.wrapper{
+    width: 260px;
+    height: 230px;
+    background-color: brown;
+    overflow: hidden;
+    border-radius: 60%;
+    cursor: pointer;
+    border: 5px solid brown;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 200ms ease-in;
+}
+img:hover{
+    transform: scale(1.1);
+}
